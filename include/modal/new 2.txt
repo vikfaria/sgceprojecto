@@ -1,0 +1,3 @@
+<form id="form" action="#" method="post">
+	<input type="text" required>
+</form>

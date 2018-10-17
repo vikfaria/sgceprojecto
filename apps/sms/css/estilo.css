@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body{
+	margin:0px;
+	min-width:1000px;
+}
+header{
+	margin:auto;
+	padding:10px;
+	font-size:30px;
+	width:500px;
+	text-align:center;
+	margin-top:20px;
+	color:#FFF;
+	background-color:#585858;
+	margin-bottom:20px;
+	box-shadow:1px 1px 5px #555555;
+	text-shadow:1px 1px 2px #555555;
+}
+section{
+	width:520px;
+	margin:auto;
+	height:auto;
+	margin-bottom:20px;
+	text-align:center;
+}
+section table{
+	width:100%;
+}
+section select{
+	width:100%;
+	font-size:14px;
+	padding: 10px;
+	cursor:pointer;
+}
+section input{
+	width:95%;
+	font-size:14px;
+	padding: 10px;
+	margin-top: 20px;
+}
+section input[type=submit]{
+	margin-top:10px;
+	width:100%;
+	font-size:14px;
+	cursor:pointer;
+	color:#F7F7F7;
+	background-color:#0174DF;
+	padding: 10px;
+	border:1px solid #CACACA;
+}
+section input[type=submit]:hover{
+	background-color:#0489B1;
+}
